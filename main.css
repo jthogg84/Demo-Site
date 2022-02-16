@@ -24,17 +24,10 @@ body{
 /*Desktop Nav Setup*/
 
 nav{
-    position: fixed;
-    top:0;
-    left:19.5rem;
-    margin: auto;
-    width: 100%;
-    padding: 0 0.5rem;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 80rem;
-    margin: auto;
+    width: 100%;
     background-color: rgba(58,118,143,1);
     color: white;
 }
@@ -51,10 +44,8 @@ nav > ul > a > li{
 }
 
 nav > ul > a {
-   
-    text-decoration: none;
+   text-decoration: none;
     color:white;
-    
 }
 
 nav > ul > a > li:hover{
